@@ -34,7 +34,7 @@ theme:
     - media: "(prefers-color-scheme: light)"
       scheme: default
 
-      primary: deep blue
+      primary: light blue
       accent: light blue
 
       toggle:
