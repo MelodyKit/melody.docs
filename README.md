@@ -1,0 +1,3 @@
+# `melody.docs`
+
+> *MelodyKit documentation.*

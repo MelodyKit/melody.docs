@@ -1,0 +1,51 @@
+site_name: melody.docs
+site_author: MelodyKit
+site_description: MelodyKit documentation.
+
+repo_name: MelodyKit/melody.docs
+repo_url: https://github.com/MelodyKit/melody.docs
+
+remote_branch: github-pages
+
+nav:
+  - Index: "index.md"
+  - Development:
+    - Config: "dev/config.md"
+  - Changelog: "changelog.md"
+  - Code of Conduct: "code_of_conduct.md"
+  - Contributing: "contributing.md"
+
+watch:
+  - docs
+
+theme:
+  name: material
+  palette:
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+
+      primary: deep purple
+      accent: light blue
+
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to light mode
+
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+
+      primary: deep blue
+      accent: light blue
+
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
+
+plugins:
+  - search
+
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
